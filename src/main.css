@@ -6,9 +6,13 @@ body{
     background: #333E4A;
 }
 
+header{
+    width: 60px;
+    margin: 20px;
+}
+
 .container{
-    background: blue;
-    margin: 40px auto;
+    margin: 20px auto;
     width: 1000px;
     height: 500px;
     display: flex;
