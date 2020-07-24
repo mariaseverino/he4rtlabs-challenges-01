@@ -14,22 +14,26 @@ header{
 
 .container{
     margin: 20px auto;
-    width: 1000px;
+    max-width: 1000px;
+    width: auto;
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info{
-    width: 500px;
+    max-width: 500px;
+    width: auto;
     background: #333E4A;
     height: 500px;
     margin-right: 30px;
 }
 
 .form{
-    width: 500px;
+    max-width: 500px;
+    width: auto;
     background: #333E4A;
     height: 500px;
     display: flex;
