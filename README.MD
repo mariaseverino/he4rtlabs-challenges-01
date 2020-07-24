@@ -2,6 +2,8 @@
 
 Uma calculadora que irá te mostrar o valor da sua hora perante o freelance cotado.
 
+![projeto](https://user-images.githubusercontent.com/57969688/88402628-c6fb2d00-cda1-11ea-9a12-a05386a0b01a.png)
+
 ## Qual é o valor que o desafio entrega?
 
 O projeto tem a finalidade de descrever alguns fatores determinantes para você saber o seu valor da sua hora em um freelance.
