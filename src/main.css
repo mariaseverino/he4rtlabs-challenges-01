@@ -56,10 +56,12 @@ input{
     border-right: none;
     border-bottom-color: #9163CC;
     outline: none;
+    font-size: 16px;
 }
 label{
     text-align: start;
     color: black;
+    font-size: 18px;
 }
 .botao_e_resultado{
     display: flex;
@@ -75,7 +77,7 @@ button{
     outline: none;
 }
 
-button:hover{
+button:active{
     background-color: #0E0E0E;
     color: #9163CC;
 }
