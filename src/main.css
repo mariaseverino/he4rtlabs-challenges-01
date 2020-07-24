@@ -62,12 +62,13 @@ label{
 }
 button{
     border-radius: 12px;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border: none;
     background-color: #9163CC;
     margin-right: 40px;
-    font-size: 16px;
+    font-size: 18px;
+    outline: none;
 }
 
 button:hover{
@@ -86,4 +87,8 @@ h1{
 
 h1{
     color: #9163CC;
+}
+
+a:hover{
+    opacity: 0.5;
 }
