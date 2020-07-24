@@ -14,18 +14,21 @@
       <div class="form">
         <div class="bloco">
           <label for="valor_projeto">Valor total do Projeto</label>
-          <input type="text" id="valor_projeto">
+          <input type="number" id="valor_projeto">
 
           <label for="horas_trabalhdas">Quantidade de horas trabalhadas por dia</label>
-          <input type="text" id="horas_trabalhdas">
+          <input type="number" id="horas_trabalhdas">
 
           <label for="dias_efetivos">Dias efetivos trabalhados na semana</label>
-          <input type="text" id="dias_efetivos">
+          <input type="number" id="dias_efetivos">
 
           <label for="ferias">Dias de férias pelo projeto</label>
-          <input type="text" id="ferias">
+          <input type="number" id="ferias">
+          <div class="botao_e_resultado">
+            <button type="submit" onclick="calcular()">Calcular</button>
+            <h1>R$ 0,00</h1>
+          </div>
         </div class="bloco">
-        
       </div>
     </div>
     <script src="./main.js"></script>

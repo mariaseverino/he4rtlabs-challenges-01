@@ -48,3 +48,23 @@ input{
 label{
     text-align: start;
 }
+.botao_e_resultado{
+    display: flex;
+}
+button{
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #9163CC;
+    margin-right: 40px;
+}
+
+button:hover{
+    background-color: #0E0E0E;
+    color: #9163CC;
+}
+
+h1{
+    color: #9163CC;
+}
